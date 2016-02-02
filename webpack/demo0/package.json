@@ -1,0 +1,17 @@
+{
+  "name": "webpack_demo",
+  "version": "1.0.0",
+  "description": "study webpack",
+  "main": "app.js",
+  "scripts": {
+    "test": "webpack"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Jafeney",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.12"
+  }
+}
