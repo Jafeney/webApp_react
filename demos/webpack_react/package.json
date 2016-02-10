@@ -1,0 +1,26 @@
+{
+  "name": "webpack_demo",
+  "version": "1.0.0",
+  "description": "study webpack",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "jafeney",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "jsx-loader": "^0.13.2",
+    "react": "^0.14.7",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
